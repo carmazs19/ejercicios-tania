@@ -1,0 +1,45 @@
+*{
+    background-color: rgb(203, 227, 170);
+}
+
+h1/*selector de tipo o elemento: Selecciona los elementos con ese nombre*/
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/*selector de clase:las clases si se comparten, se utilizan para agrupar */
+.terminos-a-definir{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-color: burlywood;
+}
+
+/*selectores de ID: Seleccionan u elemento especifico y no se comparte con otros elementos*/
+
+#parrafo-inicial{
+    background-color: :darkgreen;
+    font-size: 60 px;    
+}
+
+h2{
+    font-family: monospace;
+    font-size: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid black;
+    width: 0;
+    animation: escribir 1s steps(50) infinite alternate;
+  }
+  @keyframes escribir {
+    from {
+      width: 0;
+    }
+    to {
+      width: 12ch;
+    }
+  } 
+  #gatito-tamalero.jpg{
+    width: 600px;
+    height: 600px;
+  }
